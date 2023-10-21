@@ -186,11 +186,26 @@ li{
 #panel, #flip {
   padding: 5px;
   text-align: center;
-  background-color: #6c757d;
+  background-color: #2b2b2b;
   border: solid 1px #f8f9fa;
 }
 
 #panel {
   padding: 50px;
   display: none;
+}
+
+
+.search-area {
+  border: 1px solid #ccc;
+  outline: none;
+  background-size: 22px;
+  background-position: 13px;
+  border-radius: 10px;
+  width: 100px;
+  transition: all 0.5s;
+}
+.search-area:hover {
+  width: 350px;
+  padding-left: 50px;
 }
